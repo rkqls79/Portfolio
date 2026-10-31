@@ -696,5 +696,7 @@ const setT=t=>{root.dataset.theme=t; ttp.setAttribute('d',t==='dark'?SUN:MOON); 
 try{ setT(localStorage.gbTheme || (matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')); }catch(e){ setT('light'); }
 document.getElementById('tt').onclick=()=>setT(root.dataset.theme==='dark'?'light':'dark');
 </script>
+<style>@media print{#wm-709{display:none!important}}</style>
+<div id="wm-709" style="position:fixed;bottom:14px;right:16px;z-index:9999;font-family:'Inter','Noto Sans KR',sans-serif;font-size:8.5pt;font-weight:700;color:#948c80;opacity:0.5;letter-spacing:0.5px;pointer-events:none;user-select:none;">709._.b</div>
 </body>
 </html>
